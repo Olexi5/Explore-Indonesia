@@ -272,7 +272,9 @@ body {
 .secrets {
   margin: 0 auto;
   padding-top: 127px;
-  padding-bottom: 1726px;
+  margin-bottom: 1726px;
+}
+.photo {
   background-image: url(../images/backr-img3.jpg);
   background-size: cover;
   background-position: center;
@@ -289,9 +291,10 @@ body {
   margin-bottom: 44.83px;
 }
 .numbers {
-  padding: 201px 0 224.88px 0;
   margin: 0 auto;
   background-image: linear-gradient(to top, rgba(2, 12, 33, 0.9));
+  padding-top: 201px;
+  padding-bottom: 224px;
 }
 .numbers-title {
   font-family: "DM Sans", sans-serif;
@@ -522,27 +525,27 @@ body {
 .gallery-item:nth-child(6) {
   grid-area: 3 / 3 / 5 / 4;
 }
-.gallery-img{
+.gallery-img {
   width: 370px;
   object-fit: cover;
   border-radius: 10px;
 }
-.gallery-item:nth-child(1) .gallery-img{
+.gallery-item:nth-child(1) .gallery-img {
   height: 530px;
 }
-.gallery-item:nth-child(2) .gallery-img{
+.gallery-item:nth-child(2) .gallery-img {
   height: 210px;
 }
-.gallery-item:nth-child(3) .gallery-img{
+.gallery-item:nth-child(3) .gallery-img {
   height: 370px;
 }
-.gallery-item:nth-child(4) .gallery-img{
+.gallery-item:nth-child(4) .gallery-img {
   height: 210px;
 }
-.gallery-item:nth-child(5) .gallery-img{
+.gallery-item:nth-child(5) .gallery-img {
   height: 530px;
 }
-.gallery-item:nth-child(6) .gallery-img{
+.gallery-item:nth-child(6) .gallery-img {
   height: 370px;
 }
 .getting {
