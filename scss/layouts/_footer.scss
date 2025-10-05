@@ -1,0 +1,50 @@
+.footer {
+  background-color: var(--black-color);
+  padding-top: 39px;
+  padding-bottom: 31.25px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 1737px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 36.3px;
+  margin-right: 710px;
+}
+.footer-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: var(--white-color);
+}
+.networks {
+  display: flex;
+  gap: 22px;
+  margin-right: 50px;
+}
+.footer-copyright {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: var(--white-color);
+}
+.footer-btn {
+  display: block;
+  position: fixed;
+  padding: 41.33px 32.97px;
+  border-radius: 50%;
+  bottom: 75px;
+  right: 70px;
+  border: none;
+  background-color: var(--accent-color);
+}

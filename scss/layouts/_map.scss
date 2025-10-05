@@ -1,0 +1,43 @@
+.map {
+  background-image: url(../images/map-backr.jpg);
+  padding: 249px 0 256px;
+}
+.map-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.19;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+  width: 614px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.map-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: var(--text-color2);
+  width: 470px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+.map-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--white-color);
+  border-radius: 122px;
+  background-color: var(--accent-color);
+  padding: 18.5px 56px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}

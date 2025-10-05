@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  margin-left: 28px;
+  margin-bottom: 170px;
+  margin-top: 28px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 28px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 62.1px;
+  margin-right: 842.5px;
+  margin-top: 38px;
+}
+.nav-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 38px;
+}
+.menu-btn {
+  border: none;
+  background: none;
+}

@@ -1,0 +1,84 @@
+.life-video {
+  position: relative;
+  width: 1056px;
+  margin: 0 auto;
+  margin-bottom: 125px;
+}
+.start-video2 {
+  position: absolute;
+  top: 249.63px;
+  left: 480px;
+  background-color: #e93a7d;
+  border-radius: 50%;
+  padding: 40px;
+  border: none;
+}
+.life {
+  padding: 141.16px 0 210.16px;
+  background-color: var(--black-color);
+  background-image: url(../images/life-backr.png);
+  background-size: cover;
+}
+.life-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.19;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--white-color);
+  width: 1056px;
+  margin: 0 auto;
+  margin-bottom: 67.2px;
+}
+.life-list {
+  display: flex;
+  gap: 75px;
+  width: 1284px;
+  margin: 0 auto;
+}
+.life-item {
+  display: flex;
+  gap: 41px;
+}
+.life-item:first-child .life-item-text {
+  width: 334.63px;
+}
+.video {
+  width: 233px;
+  height: 151px;
+  position: relative;
+}
+.video-img3 {
+  width: 233px;
+  height: 151px;
+}
+.start-video3 {
+  position: absolute;
+  top: 60.06px;
+  left: 103.94px;
+  background: none;
+  border: none;
+}
+.life-item-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--white-color);
+  margin-bottom: 15.09px;
+}
+.life-item-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
+  color: var(--white-color);
+  width: 323px;
+}
+.video-img4 {
+  width: 234px;
+  height: 151px;
+}
