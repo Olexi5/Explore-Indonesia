@@ -12,8 +12,8 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
-    <header id="header" class="header">
+  <body  class="">
+    <header id="header" class="header container">
       <a href="" class="logo"
         ><img src="./images/logo.png" alt="" class="logo-img"
       /></a>
@@ -33,13 +33,32 @@
             </button>
           </li>
           <li class="menu-item">
-            <button class="menu-btn">
+            <button class="menu-btn" type="button" data-mob-open>
               <img src="./images/menu-img2.png" alt="" class="menu-img" />
             </button>
           </li>
         </ul>
       </div>
     </header>
+    <div class="is-hidden mob" data-mob>
+        <button class="mob__btn" type="button" data-mob-close><img src="./images/close-btn.png" alt=""></button>
+        <nav class="mob__nav">
+          <ul class="mob__nav__list">
+            <li class="mob__nav__item">
+              <a href="" class="mob__nav__link">destinations</a>
+            </li>
+            <li class="mob__nav__item">
+              <a href="" class="mob__nav__link">experiences</a>
+            </li>
+            <li class="mob__nav__item">
+              <a href="" class="mob__nav__link">about</a>
+            </li>
+            <li class="mob__nav__item">
+              <a href="" class="mob__nav__link">gallery</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     <main>
       <section class="hero">
         <div class="container">
@@ -82,7 +101,7 @@
           </div>
         </div>
       </section>
-      <section class="articles">
+      <!-- <section class="articles">
         <ul class="articles-list">
           <li class="articles-item1">
             <div class="container item1">
@@ -115,41 +134,41 @@
             </div>
           </li>
         </ul>
-      </section>
-      <section class="photo">
+      </section> -->
+      <!-- <section class="photo">
         <div class="secrets">
-        <div class="container">
-          <h2 class="secrets-title">Explore Our Secrets</h2>
-          <div class="secrets-gallery">
-            <button class="pre-btn">
-              <img src="./images/chevron.png" alt="" class="chevron" />
-            </button>
-            <button class="nxt-btn">
-              <img src="./images/chevron.png" alt="" class="chevron" />
-            </button>
-            <div class="pictures">
-              <div class="pictures-card">
-                <img class="card-img" src="./images/backr-img1.jpg" alt="" />
-              </div>
-              <div class="pictures-card">
-                <img class="card-img" src="./images/backr-img2.jpg" alt="" />
-              </div>
-              <div class="pictures-card">
-                <img class="card-img" src="./images/backr-img3.jpg" alt="" />
-              </div>
-              <div class="pictures-card">
-                <img class="card-img" src="./images/img4.jpg" alt="" />
-              </div>
-              <div class="pictures-card">
-                <img class="card-img" src="./images/img5.jpg" alt="" />
-              </div>
-              <div class="pictures-card">
-                <img class="card-img" src="./images/img6.jpg" alt="" />
+          <div class="container">
+            <h2 class="secrets-title">Explore Our Secrets</h2>
+            <div class="secrets-gallery">
+              <button class="pre-btn">
+                <img src="./images/chevron.png" alt="" class="chevron" />
+              </button>
+              <button class="nxt-btn">
+                <img src="./images/chevron.png" alt="" class="chevron" />
+              </button>
+              <div class="pictures">
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/backr-img1.jpg" alt="" />
+                </div>
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/backr-img2.jpg" alt="" />
+                </div>
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/backr-img3.jpg" alt="" />
+                </div>
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/img4.jpg" alt="" />
+                </div>
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/img5.jpg" alt="" />
+                </div>
+                <div class="pictures-card">
+                  <img class="card-img" src="./images/img6.jpg" alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
         <div class="numbers">
           <div class="container">
             <h2 class="numbers-title">By The Numbers</h2>
@@ -183,8 +202,8 @@
             </ul>
           </div>
         </div>
-      </section>
-      <section class="map">
+      </section> -->
+      <!-- <section class="map">
         <div class="container">
           <h2 class="map-title">
             Our hills and valleys are like nothing you’ve seen.
@@ -196,8 +215,8 @@
           </p>
           <button class="map-btn">Learn More</button>
         </div>
-      </section>
-      <section class="life">
+      </section> -->
+      <!-- <section class="life">
         <div class="container">
           <h2 class="life-title">
             Live a life like you wouldn’t imagine, experience a life you
@@ -250,8 +269,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="container gallery">
+      </section> -->
+      <!-- <section class="container gallery">
         <h2 class="gallery-title">Photo Gallery</h2>
         <p class="gallery-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -277,8 +296,8 @@
             <img src="./images/gallery-img6.jpg" alt="" class="gallery-img" />
           </li>
         </ul>
-      </section>
-      <section class="getting">
+      </section> -->
+      <!-- <section class="getting">
         <div class="container">
           <h2 class="getting-title">Getting there</h2>
           <ul class="getting-list">
@@ -335,9 +354,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container">
         <a href="" class="footer-logo">
           <img class="footer-logo-img" src="./images/flower.png" alt="" />
@@ -373,7 +392,8 @@
           <img src="./images/chevron-up.png" alt="" class="btn-img" />
         </a>
       </div>
-    </footer>
+    </footer> -->
+    <script src="./mobile.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

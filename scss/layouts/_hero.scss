@@ -5,22 +5,30 @@
       rgba(0, 0, 0, 0.29) 84.2%
     ),
     url(../images/hero-backr.jpg);
-  padding-left: 277.14px;
-  padding-top: 266px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 153px;
+  @media screen and (min-width: 1752px) {
+    padding-left: 277.14px;
+    padding-top: 266px;
+  }
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 120px;
+  font-size: 58px;
   line-height: 1.083;
   letter-spacing: 0%;
   text-transform: uppercase;
   color: var(--white-color);
-  width: 627px;
-  margin-bottom: 21px;
+  width: 314px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1752px) {
+    font-size: 120px;
+    width: 628px;
+    margin-bottom: 21px;
+  }
 }
 .hero-btn {
   font-family: "DM Sans", sans-serif;
@@ -35,18 +43,29 @@
   padding: 26px 64.07px;
   border-radius: 211px;
   border: none;
-  margin-bottom: 197px;
+  margin-bottom: 54px;
 }
 .hero-end {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  @media screen and (min-width: 1752px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
 }
 .hero-list {
   display: flex;
   background-color: rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(0, 0, 0, 0.6);
-  gap: 198.1px;
-  padding: 41px 128.07px 49px 71.04px;
+  flex-direction: column;
+  padding: 35px 72px 30px 32px;
+  gap: 32px;
+  @media screen and (min-width: 1752px) {
+    flex-direction: row;
+    gap: 198px;
+    padding: 41px 128.07px 49px 71.04px;
+    width: 1200px;
+  }
 }
 .hero-num {
   font-family: "Roboto", sans-serif;
@@ -70,16 +89,26 @@
   position: relative;
 }
 .video-img1 {
-  width: 417.22px;
-  height: 254px;
+  width: 314px;
+  height: 191px;
+  @media screen and (min-width: 1752px) {
+    width: 417.22px;
+    height: 254px;
+  }
 }
 .start-video1 {
   position: absolute;
-  top: 78px;
-  left: 170.09px;
-  padding: 27.17px 26.18px 25.17px 31.68px;
+
+  padding: 20px 20px 19px 23px;
+  top: 66px;
+  left: 128px;
   border: 1px solid var(--white-color);
   box-shadow: 0px 0px 50px 0px #00000080;
   background-color: var(--white-color);
   border-radius: 50%;
+  @media screen and (min-width: 1752px) {
+    top: 78px;
+    left: 170.09px;
+    padding: 27.17px 26.18px 25.17px 31.68px;
+  }
 }

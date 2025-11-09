@@ -1,19 +1,22 @@
 .header {
   display: flex;
-  margin-left: 28px;
-  margin-bottom: 170px;
-  margin-top: 28px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 28px;
+  top: 48px;
+  align-items: center;
+  @media screen and (min-width: 1752px) {
+    top: 28px;
 }
-
+}
 .nav-list {
-  display: flex;
   gap: 62.1px;
-  margin-right: 842.5px;
+  margin-right: 800.5px;
   margin-top: 38px;
+  display: none;
+  @media screen and (min-width: 1752px) {
+    display: flex;
+  }
 }
 .nav-link {
   font-family: "DM Sans", sans-serif;
@@ -29,8 +32,32 @@
   gap: 40px;
   align-items: center;
   margin-top: 38px;
+  margin-bottom: 30px;
 }
 .menu-btn {
   border: none;
   background: none;
+}
+
+.mob {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: aliceblue;
+  @media screen and (min-width: 1752px) {
+    display: none;
+    pointer-events: none;
+  }
+}
+.is-hidden {
+  display: none;
+}
+.no-scroll {
+  overflow: hidden;
+  @media screen and (min-width: 1752px) {
+    overflow: scroll;
+  }
 }
