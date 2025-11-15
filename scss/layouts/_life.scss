@@ -1,20 +1,30 @@
 .life-video {
   position: relative;
-  width: 1056px;
+  // width: 1056px;
+  width: 314px;
+  height: 192px;
   margin: 0 auto;
-  margin-bottom: 125px;
+  // margin-bottom: 125px;
+  margin-bottom: 40px;
+}
+.video-img2{
+  width: 314px;
+  height: 192px;
 }
 .start-video2 {
   position: absolute;
-  top: 249.63px;
-  left: 480px;
+  // top: 249.63px;
+  // left: 480px;
+  top: 62px;
+  left: 123px;
   background-color: #e93a7d;
   border-radius: 50%;
   padding: 40px;
   border: none;
 }
 .life {
-  padding: 141.16px 0 210.16px;
+  // padding: 141.16px 0 210.16px;
+  padding-top: 83px;
   background-color: var(--black-color);
   background-image: url(../images/life-backr.png);
   background-size: cover;
@@ -27,14 +37,17 @@
   letter-spacing: 0px;
   text-align: center;
   color: var(--white-color);
-  width: 1056px;
+  // width: 1056px;
+  width: 314px;
   margin: 0 auto;
   margin-bottom: 67.2px;
 }
 .life-list {
   display: flex;
+  flex-direction: column;
   gap: 75px;
-  width: 1284px;
+  // width: 1284px;
+  width: 314px;
   margin: 0 auto;
 }
 .life-item {
@@ -42,7 +55,8 @@
   gap: 41px;
 }
 .life-item:first-child .life-item-text {
-  width: 334.63px;
+  // width: 334.63px;
+  width: 313px;
 }
 .video {
   width: 233px;
