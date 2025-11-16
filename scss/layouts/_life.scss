@@ -1,33 +1,46 @@
 .life-video {
   position: relative;
-  // width: 1056px;
   width: 314px;
   height: 192px;
   margin: 0 auto;
-  // margin-bottom: 125px;
   margin-bottom: 40px;
+  @media screen and (min-width: 1643px) {
+    width: 1056px;
+    height: 594px;
+    margin-bottom: 125px;
+  }
 }
-.video-img2{
+.video-img2 {
   width: 314px;
   height: 192px;
+  @media screen and (min-width: 1643px) {
+    width: 1056px;
+    height: 594px;
+  }
 }
 .start-video2 {
   position: absolute;
-  // top: 249.63px;
-  // left: 480px;
   top: 62px;
   left: 123px;
   background-color: #e93a7d;
   border-radius: 50%;
-  padding: 40px;
+  padding: 24px;
   border: none;
+  @media screen and (min-width: 1643px) {
+    top: 249.63px;
+    left: 480px;
+    padding: 40px;
+  }
 }
 .life {
-  // padding: 141.16px 0 210.16px;
   padding-top: 83px;
   background-color: var(--black-color);
   background-image: url(../images/life-backr.png);
   background-size: cover;
+  padding-bottom: 30px;
+  @media screen and (min-width: 1643px) {
+    padding: 141.16px 0 210.16px;
+  }
 }
 .life-title {
   font-family: "DM Sans", sans-serif;
@@ -37,62 +50,99 @@
   letter-spacing: 0px;
   text-align: center;
   color: var(--white-color);
-  // width: 1056px;
   width: 314px;
   margin: 0 auto;
   margin-bottom: 67.2px;
+  @media screen and (min-width: 1643px) {
+    width: 1056px;
+  }
 }
 .life-list {
   display: flex;
   flex-direction: column;
   gap: 75px;
-  // width: 1284px;
   width: 314px;
   margin: 0 auto;
+  @media screen and (min-width: 1643px) {
+    width: 1284px;
+    flex-direction: row;
+  }
 }
 .life-item {
   display: flex;
   gap: 41px;
+  flex-direction: column;
+  @media screen and (min-width: 1643px) {
+    flex-direction: row;
+  }
 }
 .life-item:first-child .life-item-text {
-  // width: 334.63px;
   width: 313px;
+  @media screen and (min-width: 1643px) {
+    width: 334.63px;
+  }
 }
 .video {
-  width: 233px;
-  height: 151px;
+  width: 314px;
+  height: 176px;
   position: relative;
+  @media screen and (min-width: 1643px) {
+    width: 233px;
+    height: 151px;
+  }
 }
 .video-img3 {
-  width: 233px;
-  height: 151px;
+  width: 314px;
+  height: 176px;
+  @media screen and (min-width: 1643px) {
+    width: 233px;
+    height: 151px;
+  }
 }
 .start-video3 {
   position: absolute;
-  top: 60.06px;
-  left: 103.94px;
+  top: 79px;
+  left: 152px;
   background: none;
   border: none;
+  @media screen and (min-width: 1643px) {
+    top: 60.06px;
+    left: 103.94px;
+  }
 }
 .life-item-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 150%;
   letter-spacing: 0%;
   color: var(--white-color);
   margin-bottom: 15.09px;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    text-align: left;
+    font-size: 18px;
+  }
 }
 .life-item-text {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.55;
   letter-spacing: 0.5px;
   color: var(--white-color);
   width: 323px;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    text-align: left;
+    font-size: 18px;
+  }
 }
 .video-img4 {
-  width: 234px;
-  height: 151px;
+  width: 314px;
+  height: 176px;
+  @media screen and (min-width: 1643px) {
+    width: 234px;
+    height: 151px;
+  }
 }

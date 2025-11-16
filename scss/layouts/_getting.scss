@@ -1,36 +1,116 @@
+ol {
+  counter-reset: num;
+}
+ol li {
+  list-style: none;
+  counter-increment: num;
+  position: relative;
+  padding-top: 74px;
+  @media screen and (min-width: 1643px) {
+    padding-top: 0;
+    margin-bottom: 10px;
+    padding-left: 40px;
+  }
+}
+ol li::before {
+  content: counter(num);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 59px;
+  height: 59px;
+  background: #e24a4a;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 26px;
+  @media screen and (min-width: 1643px) {
+    left: 0;
+    top: 0;
+  }
+}
+
 .getting {
   background-color: #dce8f2;
-  padding-left: 386px;
-  padding-top: 119px;
-  padding-bottom: 117px;
+  padding: 29px 31px 40px 30px;
+  @media screen and (min-width: 1643px) {
+    padding-left: 386px;
+    padding-top: 119px;
+    padding-bottom: 117px;
+  }
+}
+.first-text {
+  color: #15143966;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    display: none;
+  }
+}
+.show-link {
+  color: #dd2242;
+  text-align: center;
+  list-style: none;
+  @media screen and (min-width: 1643px) {
+    display: none;
+  }
+}
+.show-text {
+  color: #15143966;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    display: none;
+  }
 }
 .getting-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 150%;
   letter-spacing: 0%;
   color: var(--black-color);
-  margin-bottom: 59.27px;
+  margin-bottom: 127px;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    font-size: 60px;
+    margin-bottom: 59.27px;
+    text-align: left;
+  }
 }
 .getting-item {
-  margin-bottom: 83.63px;
-  padding-left: 102.7px;
+  margin-bottom: 106px;
+  @media screen and (min-width: 1643px) {
+    margin-bottom: 83.63px;
+    padding-left: 102.7px;
+  }
 }
 .getting-item:nth-child(2) .getting-text {
-  margin-bottom: 93.9px;
+  @media screen and (min-width: 1643px) {
+    margin-bottom: 93.9px;
+  }
 }
 .getting-item:nth-child(3) .getting-text {
-  margin-bottom: 16.95px;
+  @media screen and (min-width: 1643px) {
+    margin-bottom: 16.95px;
+  }
 }
 .getting-item-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 26.41px;
+  font-size: 22px;
   line-height: 1.55;
   letter-spacing: 0px;
   color: var(--black-color);
-  margin-bottom: 28.13px;
+  margin-bottom: 5px;
+  text-align: center;
+  @media screen and (min-width: 1643px) {
+    font-size: 26.41px;
+    margin-bottom: 28.13px;
+    text-align: left;
+  }
 }
 .getting-text {
   font-family: "DM Sans", sans-serif;
@@ -40,19 +120,36 @@
   letter-spacing: 0px;
   color: #15143966;
   width: 1038.76px;
+  display: none;
+  @media screen and (min-width: 1643px) {
+    display: block;
+  }
 }
 .traveling {
   display: flex;
   gap: 45.48px;
+  flex-direction: column;
+  @media screen and (min-width: 1643px) {
+    flex-direction: row;
+  }
 }
 .getting-video {
   position: relative;
+  margin-top: 32px;
+  @media screen and (min-width: 1643px) {
+    margin-top: 0;
+  }
 }
 .video-img5 {
-  height: 165.79px;
-  width: 249.42px;
+  width: 314px;
+  height: 208px;
+  border-radius: 7px;
   object-fit: cover;
   object-position: center;
+  @media screen and (min-width: 1643px) {
+    height: 165.79px;
+    width: 249.42px;
+  }
 }
 .traveling-title {
   font-family: "DM Sans", sans-serif;
@@ -62,6 +159,10 @@
   letter-spacing: 0px;
   color: var(--black-color);
   margin-bottom: 12.19px;
+  display: none;
+  @media screen and (min-width: 1643px) {
+    display: block;
+  }
 }
 .traveling-text {
   font-family: "DM Sans", sans-serif;
@@ -71,14 +172,23 @@
   letter-spacing: 0px;
   color: #15143966;
   width: 446.02px;
+  display: none;
+  @media screen and (min-width: 1643px) {
+    display: block;
+  }
 }
 .start-video4 {
   position: absolute;
-  top: 46.95px;
-  left: 88.03px;
-  padding: 26.41px 22.01px 23.47px 27.88px;
+  top: 58.6px;
+  left: 110.6px;
+  padding: 35.41px 32.35px 33.5px 36.8px;
   background: none;
   border: none;
+  @media screen and (min-width: 1643px) {
+    top: 46.95px;
+    left: 88.03px;
+    padding: 26.41px 22.01px 23.47px 27.88px;
+  }
 }
 .getting-btn {
   font-family: "DM Sans", sans-serif;
@@ -92,4 +202,8 @@
   padding: 18.5px 56px;
   border-radius: 122px;
   border: none;
+  display: none;
+  @media screen and (min-width: 1643px) {
+    display: block;
+  }
 }
