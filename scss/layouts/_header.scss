@@ -7,7 +7,7 @@
   align-items: center;
   @media screen and (min-width: 1752px) {
     top: 28px;
-}
+  }
 }
 .nav-list {
   gap: 62.1px;
@@ -46,10 +46,49 @@
   top: 0;
   left: 0;
   height: 100vh;
+  padding: 80px 30px 50px 50px;
   background-color: aliceblue;
+  background-image: linear-gradient(
+      0deg,
+      rgba(128, 43, 61, 0.5) 30%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../images/hero-backr.jpg);
+  background-position: center;
+  background-size: cover;
   @media screen and (min-width: 1752px) {
     display: none;
     pointer-events: none;
+  }
+  &__networks-img{
+    width: 40px;
+  }
+  &__footer-copyright{
+    margin-top: 30px;
+  }
+  &__btn {
+    background-color: #e0566d;
+    border: 2px solid transparent;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+    &:hover {
+      border: 2px solid #fff;
+    }
+  }
+  &__nav {
+    margin: 0 auto;
+    &__list{
+      margin-bottom: 370px;
+    }
+    &__link {
+      color: #fff;
+      font-size: 30px;
+      &:hover{
+        color: #e0566d;
+      }
+    }
   }
 }
 .is-hidden {
