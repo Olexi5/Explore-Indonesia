@@ -14,6 +14,12 @@
   margin-right: 800.5px;
   margin-top: 38px;
   display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
   @media screen and (min-width: 1752px) {
     display: flex;
   }
@@ -26,6 +32,9 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   color: var(--white-color);
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 .menu-list {
   display: flex;
@@ -56,6 +65,10 @@
     url(../images/hero-backr.jpg);
   background-position: center;
   background-size: cover;
+  @media screen and (min-width: 768px) {
+    display: none;
+    pointer-events: none;
+  }
   @media screen and (min-width: 1752px) {
     display: none;
     pointer-events: none;
@@ -96,6 +109,9 @@
 }
 .no-scroll {
   overflow: hidden;
+  @media screen and (min-width: 768px) {
+    overflow: scroll;
+  }
   @media screen and (min-width: 1752px) {
     overflow: scroll;
   }

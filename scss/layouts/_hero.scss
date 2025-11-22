@@ -48,6 +48,10 @@
 .hero-end {
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
   @media screen and (min-width: 1752px) {
     flex-direction: row;
     align-items: flex-end;
@@ -60,6 +64,8 @@
   flex-direction: column;
   padding: 35px 72px 30px 32px;
   gap: 32px;
+  @media screen and (min-width: 768px) {
+  }
   @media screen and (min-width: 1752px) {
     flex-direction: row;
     gap: 198px;

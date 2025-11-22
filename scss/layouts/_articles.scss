@@ -9,6 +9,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 31px 28px 29px;
+  @media screen and (min-width: 768px) {
+    padding: 107px 336.65px 86px 50px;
+  }
   @media screen and (min-width: 1643px) {
     padding: 207px 336.65px 86px 339.65px;
   }
@@ -17,6 +20,10 @@
   display: flex;
   flex-direction: column;
   gap: 34px;
+  @media screen and (min-width: 768px) {
+    gap: 30.86px;
+    flex-direction: row;
+  }
   @media screen and (min-width: 1643px) {
     gap: 130.86px;
     flex-direction: row;
@@ -26,6 +33,10 @@
   border-radius: 10px;
   width: 314px;
   height: 232px;
+  @media screen and (min-width: 768px) {
+    width: 352px;
+    height: 332px;
+  }
   @media screen and (min-width: 1643px) {
     width: 630.343px;
     height: 460px;
@@ -33,6 +44,12 @@
 }
 .articles-inf1 {
   padding-top: 58px;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+  @media screen and (min-width: 1643px) {
+    padding-top: 58px;
+  }
 }
 .articles-inf2 {
   padding-top: 68px;
@@ -46,6 +63,9 @@
   color: var(--white-color);
   margin-bottom: 4px;
   width: 314px;
+  @media screen and (min-width: 768px) {
+    width: 310px;
+  }
   @media screen and (min-width: 1643px) {
     width: 479.5px;
   }
@@ -59,6 +79,9 @@
   color: var(--text-color);
   width: 314px;
   margin-bottom: 32.13px;
+  @media screen and (min-width: 768px) {
+    width: 310px;
+  }
   @media screen and (min-width: 1643px) {
     width: 407.5px;
   }
@@ -75,6 +98,9 @@
   text-align: center;
   color: var(--white-color);
   border: none;
+  @media screen and (min-width: 768px) {
+    padding: 16px 40.91px;
+  }
   @media screen and (min-width: 1643px) {
     padding: 16px 40.91px;
   }
@@ -90,6 +116,9 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (min-width: 768px) {
+    padding: 95px 299.69px 305px 383.6px;
+  }
   @media screen and (min-width: 1643px) {
     padding: 95px 299.69px 305px 383.6px;
   }
@@ -98,6 +127,10 @@
   display: flex;
   flex-direction: column-reverse;
   gap: 41.5px;
+  @media screen and (min-width: 768px) {
+    gap: 124.87px;
+    flex-direction: row;
+  }
   @media screen and (min-width: 1643px) {
     gap: 124.87px;
     flex-direction: row;
