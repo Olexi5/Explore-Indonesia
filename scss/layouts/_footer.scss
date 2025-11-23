@@ -2,6 +2,11 @@
   background-color: var(--black-color);
   padding: 146px 86px 85px 85px;
   position: relative;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+    padding-top: 39px;
+    padding-bottom: 31.25px;
+  }
   @media screen and (min-width: 1643px) {
     padding: 0;
     padding-top: 39px;
@@ -17,6 +22,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 36px;
+  @media screen and (min-width: 768px) {
+    width: 700px;
+    flex-direction: row;
+    margin: 0;
+  }
   @media screen and (min-width: 1643px) {
     width: 1737px;
     flex-direction: row;
@@ -46,6 +56,9 @@
   display: flex;
   gap: 22px;
   margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+  }
   @media screen and (min-width: 1643px) {
     margin-right: 50px;
   }
@@ -69,6 +82,13 @@
   transform: translateX(-50%);
   border: none;
   background-color: var(--accent-color);
+  @media screen and (min-width: 768px) {
+    position: fixed;
+    top: unset;
+    bottom: 20px;
+    left: unset;
+    right: 20px;
+  }
   @media screen and (min-width: 1643px) {
     position: fixed;
     top: unset;
